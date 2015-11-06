@@ -4,6 +4,7 @@ using System.Windows.Threading;
 using System;
 using Xceed.Wpf.Toolkit;
 
+
 namespace BoardViewer
 {
     /// <summary>
@@ -16,7 +17,7 @@ namespace BoardViewer
 
         public MainWindow()
         {
-            currentBoard = new FauxGameOfLife();
+            currentBoard = new ConwaysGOL();
             dispatcherTimer = new DispatcherTimer();
 
             InitializeComponent();

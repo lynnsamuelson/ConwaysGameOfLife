@@ -125,6 +125,10 @@
       <Project>{84f60520-70b5-4789-95c0-71c412703e69}</Project>
       <Name>ConwaysGameOfLife</Name>
     </ProjectReference>
+    <ProjectReference Include="..\UnitTestsConwaysGameOfLife\UnitTestsConwaysGameOfLife.csproj">
+      <Project>{2a9c9e4d-0de8-4be8-9f4c-00e5baf9c1bf}</Project>
+      <Name>UnitTestsConwaysGameOfLife</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
