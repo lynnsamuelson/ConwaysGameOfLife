@@ -28,7 +28,35 @@ namespace ConwaysGameOfLife
             //3) determine whether cell X will be live or dead after tick
             //4) Add new live/dead value to cell X
             //5) Return new bool[,]
-        }       
+        }
+
+        public bool[,] RuleTwo()
+        {
+            throw new NotImplementedException();
+
+            
+        }
+
+        public bool[,] RuleThree()
+        {
+            throw new NotImplementedException();
+
+
+        }
+
+        public bool[,] RuleFour()
+        {
+            throw new NotImplementedException();
+
+
+        }
+
+        public bool[,] Play()
+        {
+            throw new NotImplementedException();
+
+
+        }
 
         public List<List<bool>> ToList()
         {
